@@ -1,0 +1,11 @@
+cd /etc/apt/apt.conf.d/ 
+nano 10proxy
+
+Acquire::http::Proxy "http://username:password@proxy_server_address:port";
+
+===
+nano /etc/environment
+
+export http_proxy="http://username:password@proxyipaddress:proxyport"
+export https_proxy="http://username:password@proxyipaddress:proxyport"
+export no_proxy="localhost, 127.0.0.1"

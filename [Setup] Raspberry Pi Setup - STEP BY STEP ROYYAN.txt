@@ -1,0 +1,4 @@
+1. format Micro SD CARD
+2. masukin NOOBS langsung di Root (gausah pake pi_imager, sama aja hasilnya dengan copy langsung)
+3. pastikan colokan HDMI benar (utk RPi4, pastikan di colok di dekat colokan type-C)
+4. tunggu
